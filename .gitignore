@@ -1,0 +1,13 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+__pycache__/
+*.pyc
+.venv/
+ml/runs/
+ml/datasets/
+*.tflite
+!app/src/main/assets/.gitkeep
+.env

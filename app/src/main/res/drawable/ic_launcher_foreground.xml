@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Biển tròn viền đỏ (kiểu biển giới hạn tốc độ) với một vạch đen ở giữa. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M54,54m-30,0a30,30 0,1 0,60 0a30,30 0,1 0,-60 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-21,0a21,21 0,1 0,42 0a21,21 0,1 0,-42 0" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M41,50h26v8h-26z" />
+</vector>

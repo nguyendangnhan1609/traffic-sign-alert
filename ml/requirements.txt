@@ -1,0 +1,9 @@
+# Cài đặt: pip install -r ml/requirements.txt
+# Chỉ cần pyyaml để chạy check_classes.py / prepare_dataset.py; phần còn lại cho huấn luyện và xuất model.
+pyyaml>=6.0
+pillow>=10.0
+opencv-python>=4.8        # extract_frames.py
+ultralytics>=8.3.0        # train.py / evaluate.py / export_tflite.py (kéo theo torch)
+pytest>=8.0               # chạy test: pytest ml/tests
+# Xuất TFLite cần thêm tensorflow và vài gói chuyển đổi; Ultralytics sẽ tự cài khi chạy export_tflite.py
+# lần đầu (nên chạy trên Google Colab hoặc máy Linux).

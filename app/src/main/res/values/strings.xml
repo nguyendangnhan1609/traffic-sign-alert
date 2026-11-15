@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cảnh báo biển báo</string>
+
+    <!-- Miễn trừ trách nhiệm -->
+    <string name="disclaimer_title">Lưu ý an toàn</string>
+    <string name="disclaimer_text">Ứng dụng chỉ là công cụ hỗ trợ và có thể đọc sai hoặc bỏ sót biển báo. Người lái xe luôn chịu trách nhiệm hoàn toàn về việc điều khiển xe và phải tuân theo biển báo, vạch kẻ đường và hiệu lệnh thực tế trên đường. Không thao tác với điện thoại khi xe đang chạy.</string>
+    <string name="disclaimer_accept">Tôi đã hiểu</string>
+
+    <!-- Quyền -->
+    <string name="permission_title">Ứng dụng cần một số quyền</string>
+    <string name="permission_camera">Camera: để nhìn và nhận diện biển báo phía trước xe (bắt buộc).</string>
+    <string name="permission_mic">Micro: để nghe bạn nói \"đã biết\" mà không cần chạm màn hình.</string>
+    <string name="permission_location">Vị trí: để đo tốc độ xe bằng GPS và cảnh báo khi chạy quá giới hạn.</string>
+    <string name="permission_note">Hình ảnh được xử lý ngay trên điện thoại. Ảnh cắt của biển báo chỉ được gửi lên dịch vụ đám mây khi bạn bật tính năng này và nhập khoá API trong phần cài đặt.</string>
+    <string name="permission_grant">Cấp quyền</string>
+    <string name="permission_camera_denied">Chưa có quyền camera nên ứng dụng không thể hoạt động. Hãy cấp quyền camera trong phần cài đặt của điện thoại.</string>
+    <string name="permission_open_settings">Mở cài đặt ứng dụng</string>
+
+    <!-- Màn hình chính -->
+    <string name="ack_button">ĐÃ BIẾT</string>
+    <string name="speed_value">%1$d km/h</string>
+    <string name="speed_unknown">-- km/h</string>
+    <string name="speeding_warning">QUÁ TỐC ĐỘ</string>
+    <string name="limit_acknowledged">Đã xác nhận</string>
+    <string name="ack_confirmed">Đã ghi nhận</string>
+    <string name="cloud_reading">Đang đọc biển phức tạp…</string>
+    <string name="limit_none">Chưa có biển giới hạn</string>
+    <string name="settings_saved">Đã lưu cài đặt</string>
+    <string name="settings_model_hint">Có thể đổi sang model khác của Anthropic. Model nhỏ trả lời nhanh và rẻ hơn.</string>
+    <string name="open_settings">Cài đặt</string>
+    <string name="msg_model_missing">Chưa có model nhận diện biển báo. Hãy chép file model đã huấn luyện vào app/src/main/assets/signs.tflite rồi build lại ứng dụng (xem ml/README.md).</string>
+    <string name="msg_model_incompatible">File signs.tflite không đúng định dạng hoặc không khớp danh sách lớp biển báo. Hãy xuất lại model theo hướng dẫn trong ml/README.md.</string>
+    <string name="msg_tts_no_vietnamese">Điện thoại chưa có giọng đọc tiếng Việt. Hãy vào Cài đặt &gt; Chuyển văn bản thành giọng nói và tải dữ liệu giọng nói tiếng Việt.</string>
+    <string name="msg_tts_failed">Không khởi động được bộ đọc giọng nói. Ứng dụng sẽ không đọc được cảnh báo.</string>
+    <string name="msg_voice_unavailable">Điện thoại không hỗ trợ nhận dạng giọng nói. Hãy bấm nút ĐÃ BIẾT để xác nhận.</string>
+    <string name="msg_mic_denied">Chưa có quyền micro. Hãy bấm nút ĐÃ BIẾT để xác nhận.</string>
+    <string name="msg_location_denied">Chưa có quyền vị trí nên không đo được tốc độ xe.</string>
+
+    <!-- Cài đặt -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_back">Quay lại</string>
+    <string name="settings_cloud_section">Đọc biển phức tạp bằng Claude</string>
+    <string name="settings_cloud_enabled">Gửi ảnh cắt của biển phụ và biển lạ lên Claude để đọc nội dung</string>
+    <string name="settings_api_key">Khoá API Anthropic</string>
+    <string name="settings_api_key_hint">Khoá được lưu mã hoá trên điện thoại này và chỉ dùng để gọi API của Anthropic.</string>
+    <string name="settings_model">Tên model</string>
+    <string name="settings_repeat_section">Nhắc lại giới hạn tốc độ</string>
+    <string name="settings_repeat_when_speeding">Chỉ nhắc lại khi đang chạy quá tốc độ</string>
+    <string name="settings_repeat_always">Nhắc lại liên tục cho tới khi tôi nói \"đã biết\"</string>
+    <string name="settings_repeat_interval">Khoảng cách giữa hai lần nhắc: %1$d giây</string>
+    <string name="settings_save">Lưu</string>
+    <string name="settings_storage_error">Không mở được bộ lưu trữ mã hoá. Cài đặt chỉ có hiệu lực cho tới khi đóng ứng dụng.</string>
+</resources>

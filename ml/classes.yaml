@@ -1,0 +1,22 @@
+# Danh sách lớp của model on-device. id = vị trí trong danh sách (bắt đầu từ 0).
+# NGUỒN GỐC là core/src/main/kotlin/vn/trafficalert/core/SignClass.kt — thứ tự ở đây PHẢI trùng với enum.
+# Thêm lớp mới: thêm vào CUỐI ở cả hai nơi, chạy `python ml/check_classes.py`, rồi huấn luyện lại.
+names:
+  - SPEED_30
+  - SPEED_40
+  - SPEED_50
+  - SPEED_60
+  - SPEED_70
+  - SPEED_80
+  - SPEED_90
+  - SPEED_100
+  - SPEED_120
+  - END_SPEED_LIMIT
+  - END_ALL_RESTRICTIONS
+  - NO_OVERTAKING
+  - NO_STOPPING_PARKING
+  - NO_PARKING
+  - RESIDENTIAL_START
+  - RESIDENTIAL_END
+  - SUPPLEMENTARY_PLATE
+  - OTHER_SIGN
